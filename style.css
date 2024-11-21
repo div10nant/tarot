@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'FleurDeLeah';
+  src: url('./FleurDeLeah-Regular.ttf');
+}
+@font-face {
+  font-family: 'FacultyGlyphic-Regular';
+  src: url('./FacultyGlyphic-Regular.ttf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b192e;
+  
+
+}
+
+/* iz helped me center it <3 */
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+  
+
+canvas {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  padding-top: -100px;
+}
+
+button {
+  font-size: 40px;
+  font-family: FleurDeLeah;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #1b192e;
+  color: #f4d664;
+  
+}
+
+button:hover {
+  background-color: #e0a400; 
+  color: #1b192e;
+}
+
+h1 {
+  text-align: center;
+  color: #e0a400;
+  font-size: 120px;
+  font-family: FleurDeLeah;
+  margin-bottom: 0px;
+}
+
+p1{
+  border: double;
+  border-width: 5px;
+  font-family: FacultyGlyphic-Regular;
+  color: #f4d664;
+  display: flex;
+  align-items: center;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 30px;
+}
+
+#button-holder {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+#sketch-holder {
+
+  
+}
