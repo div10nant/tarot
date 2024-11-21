@@ -57,13 +57,13 @@ function changeButtonstate() {
 
 function preload() {
   font1 = loadFont("FacultyGlyphic-Regular.ttf");
-  firstBackground = loadImage("/assests2/firstBackground.png");
+  firstBackground = loadImage("./assests2/firstBackground.png");
 
-  secondBackground = loadImage("/assests2/LOADING.jpg");
+  secondBackground = loadImage("./assests2/LOADING.jpg");
 
-  thirdBackground = loadImage("/assests2/thirdbackground.png")
+  thirdBackground = loadImage("./assests2/thirdbackground.png")
 
-  table = loadTable("tarot deck - Sheet1.csv", "csv", "header");
+  table = loadTable("./tarot deck - Sheet1.csv", "csv", "header");
   // major arcana = 21 (1-21)
 
   // fool
@@ -175,7 +175,7 @@ function preload() {
   tarotCard[76] = loadImage("./assests/w13.jpg");
   tarotCard[77] = loadImage("./assests/w14.jpg");
 
-  font = loadFont("FleurDeLeah-Regular.ttf");
+  font = loadFont("./FleurDeLeah-Regular.ttf");
   cardBack = loadImage("./assests2/cardback.png")
   movingCard = loadImage("./assests2/movingCard.png")
   dot = loadImage("./assests2/dot.png")
