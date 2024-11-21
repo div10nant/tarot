@@ -67,118 +67,118 @@ function preload() {
   // major arcana = 21 (1-21)
 
   // fool
-  tarotCard[0] = loadImage("/assests1/m00.jpg");
+  tarotCard[0] = loadImage("./assests1/m00.jpg");
   // magician
-  tarotCard[1] = loadImage("/assests1/m01.jpg");
+  tarotCard[1] = loadImage("./assests1/m01.jpg");
   // high priestess
-  tarotCard[2] = loadImage("/assests1/m02.jpg");
+  tarotCard[2] = loadImage("./assests1/m02.jpg");
   // empress
-  tarotCard[3] = loadImage("/assests1/m03.jpg");
+  tarotCard[3] = loadImage("./assests1/m03.jpg");
   // emperor
-  tarotCard[4] = loadImage("/assests1/m04.jpg");
+  tarotCard[4] = loadImage("./assests1/m04.jpg");
   // hierophant (priest)
-  tarotCard[5] = loadImage("/assests1/m05.jpg");
+  tarotCard[5] = loadImage("./assests1/m05.jpg");
   // lovers
-  tarotCard[6] = loadImage("/assests1/m06.jpg");
+  tarotCard[6] = loadImage("./assests1/m06.jpg");
   // chariot
-  tarotCard[7] = loadImage("/assests1/m07.jpg");
+  tarotCard[7] = loadImage("./assests1/m07.jpg");
   // strength
-  tarotCard[8] = loadImage("/assests1/m08.jpg");
+  tarotCard[8] = loadImage("./assests1/m08.jpg");
   // hermit
-  tarotCard[9] = loadImage("/assests1/m09.jpg");
+  tarotCard[9] = loadImage("./assests1/m09.jpg");
   // wheel of fortune
-  tarotCard[10] = loadImage("/assests1/m10.jpg");
+  tarotCard[10] = loadImage("./assests1/m10.jpg");
   // justice
-  tarotCard[11] = loadImage("/assests1/m11.jpg");
+  tarotCard[11] = loadImage("./assests1/m11.jpg");
   // hanged man
-  tarotCard[12] = loadImage("/assests1/m12.jpg");
+  tarotCard[12] = loadImage("./assests1/m12.jpg");
   // death
-  tarotCard[13] = loadImage("/assests1/m13.jpg");
+  tarotCard[13] = loadImage("./assests1/m13.jpg");
   // temperance
-  tarotCard[14] = loadImage("/assests1/m14.jpg");
+  tarotCard[14] = loadImage("./assests1/m14.jpg");
   // devil
-  tarotCard[15] = loadImage("/assests1/m15.jpg");
+  tarotCard[15] = loadImage("./assests1/m15.jpg");
   // lightning-struck tower
-  tarotCard[16] = loadImage("/assests1/m16.jpg");
+  tarotCard[16] = loadImage("./assests1/m16.jpg");
   // star
-  tarotCard[17] = loadImage("/assests1/m17.jpg");
+  tarotCard[17] = loadImage("./assests1/m17.jpg");
   // moon
-  tarotCard[18] = loadImage("/assests1/m18.jpg");
+  tarotCard[18] = loadImage("./assests1/m18.jpg");
   // sun
-  tarotCard[19] = loadImage("/assests1/m19.jpg");
+  tarotCard[19] = loadImage("./assests1/m19.jpg");
   // judegment
-  tarotCard[20] = loadImage("/assests1/m20.jpg");
+  tarotCard[20] = loadImage("./assests1/m20.jpg");
   // world
-  tarotCard[21] = loadImage("/assests1/m21.jpg");
+  tarotCard[21] = loadImage("./assests1/m21.jpg");
 
   // cups = 14 (22-35)
-  tarotCard[22] = loadImage("/assests/c01.jpg");
-  tarotCard[23] = loadImage("/assests/c02.jpg");
-  tarotCard[24] = loadImage("/assests/c03.jpg");
-  tarotCard[25] = loadImage("/assests/c04.jpg");
-  tarotCard[26] = loadImage("/assests/c05.jpg");
-  tarotCard[27] = loadImage("/assests/c06.jpg");
-  tarotCard[28] = loadImage("/assests/c07.jpg");
-  tarotCard[29] = loadImage("/assests/c08.jpg");
-  tarotCard[30] = loadImage("/assests/c09.jpg");
-  tarotCard[31] = loadImage("/assests/c10.jpg");
-  tarotCard[32] = loadImage("/assests/c11.jpg");
-  tarotCard[33] = loadImage("/assests/c12.jpg");
-  tarotCard[34] = loadImage("/assests/c13.jpg");
-  tarotCard[35] = loadImage("/assests/c14.jpg");
+  tarotCard[22] = loadImage("./assests/c01.jpg");
+  tarotCard[23] = loadImage("./assests/c02.jpg");
+  tarotCard[24] = loadImage("./assests/c03.jpg");
+  tarotCard[25] = loadImage("./assests/c04.jpg");
+  tarotCard[26] = loadImage("./assests/c05.jpg");
+  tarotCard[27] = loadImage("./assests/c06.jpg");
+  tarotCard[28] = loadImage("./assests/c07.jpg");
+  tarotCard[29] = loadImage("./assests/c08.jpg");
+  tarotCard[30] = loadImage("./assests/c09.jpg");
+  tarotCard[31] = loadImage("./assests/c10.jpg");
+  tarotCard[32] = loadImage("./assests/c11.jpg");
+  tarotCard[33] = loadImage("./assests/c12.jpg");
+  tarotCard[34] = loadImage("./assests/c13.jpg");
+  tarotCard[35] = loadImage("./assests/c14.jpg");
 
   // pentacles = 14 (36-49)
-  tarotCard[36] = loadImage("/assests/p01.jpg");
-  tarotCard[37] = loadImage("/assests/p02.jpg");
-  tarotCard[38] = loadImage("p03.jpg");
-  tarotCard[39] = loadImage("/assests/p04.jpg");
-  tarotCard[40] = loadImage("/assests/p05.jpg");
-  tarotCard[41] = loadImage("/assests/p06.jpg");
-  tarotCard[42] = loadImage("/assests/p07.jpg");
-  tarotCard[43] = loadImage("/assests/p08.jpg");
-  tarotCard[44] = loadImage("/assests/p09.jpg");
-  tarotCard[45] = loadImage("/assests/p10.jpg");
-  tarotCard[46] = loadImage("/assests/p11.jpg");
-  tarotCard[47] = loadImage("/assests/p12.jpg");
-  tarotCard[48] = loadImage("/assests/p13.jpg");
-  tarotCard[49] = loadImage("/assests/p14.jpg");
+  tarotCard[36] = loadImage("./assests/p01.jpg");
+  tarotCard[37] = loadImage("./assests/p02.jpg");
+  tarotCard[38] = loadImage("./p03.jpg");
+  tarotCard[39] = loadImage("./assests/p04.jpg");
+  tarotCard[40] = loadImage("./assests/p05.jpg");
+  tarotCard[41] = loadImage("./assests/p06.jpg");
+  tarotCard[42] = loadImage("./assests/p07.jpg");
+  tarotCard[43] = loadImage("./assests/p08.jpg");
+  tarotCard[44] = loadImage("./assests/p09.jpg");
+  tarotCard[45] = loadImage("./assests/p10.jpg");
+  tarotCard[46] = loadImage("./assests/p11.jpg");
+  tarotCard[47] = loadImage("./assests/p12.jpg");
+  tarotCard[48] = loadImage("./assests/p13.jpg");
+  tarotCard[49] = loadImage("./assests/p14.jpg");
 
   // swords = 14 (50-62)
-  tarotCard[50] = loadImage("/assests/s01.jpg");
-  tarotCard[51] = loadImage("/assests/s02.jpg");
-  tarotCard[52] = loadImage("/assests/s03.jpg");
-  tarotCard[53] = loadImage("/assests/s04.jpg");
-  tarotCard[54] = loadImage("/assests/s05.jpg");
-  tarotCard[55] = loadImage("/assests/s06.jpg");
-  tarotCard[56] = loadImage("/assests/s07.jpg");
-  tarotCard[57] = loadImage("/assests/s08.jpg");
-  tarotCard[58] = loadImage("/assests/s09.jpg");
-  tarotCard[59] = loadImage("/assests/s10.jpg");
-  tarotCard[60] = loadImage("/assests/s11.jpg");
-  tarotCard[61] = loadImage("/assests/s12.jpg");
-  tarotCard[62] = loadImage("/assests/s13.jpg");
-  tarotCard[63] = loadImage("/assests/s14.jpg");
+  tarotCard[50] = loadImage("./assests/s01.jpg");
+  tarotCard[51] = loadImage("./assests/s02.jpg");
+  tarotCard[52] = loadImage("./assests/s03.jpg");
+  tarotCard[53] = loadImage("./assests/s04.jpg");
+  tarotCard[54] = loadImage("./assests/s05.jpg");
+  tarotCard[55] = loadImage("./assests/s06.jpg");
+  tarotCard[56] = loadImage("./assests/s07.jpg");
+  tarotCard[57] = loadImage("./assests/s08.jpg");
+  tarotCard[58] = loadImage("./assests/s09.jpg");
+  tarotCard[59] = loadImage("./assests/s10.jpg");
+  tarotCard[60] = loadImage("./assests/s11.jpg");
+  tarotCard[61] = loadImage("./assests/s12.jpg");
+  tarotCard[62] = loadImage("./assests/s13.jpg");
+  tarotCard[63] = loadImage("./assests/s14.jpg");
 
   // wands = 14 (64-77)
-  tarotCard[64] = loadImage("/assests/w01.jpg");
-  tarotCard[65] = loadImage("/assests/w02.jpg");
-  tarotCard[66] = loadImage("w03.jpg");
-  tarotCard[67] = loadImage("/assests/w04.jpg");
-  tarotCard[68] = loadImage("/assests/w05.jpg");
-  tarotCard[69] = loadImage("/assests/w06.jpg");
-  tarotCard[70] = loadImage("/assests/w07.jpg");
-  tarotCard[71] = loadImage("/assests/w08.jpg");
-  tarotCard[72] = loadImage("w09.jpg");
-  tarotCard[73] = loadImage("/assests/w10.jpg");
-  tarotCard[74] = loadImage("/assests/w11.jpg");
-  tarotCard[75] = loadImage("/assests/w12.jpg");
-  tarotCard[76] = loadImage("/assests/w13.jpg");
-  tarotCard[77] = loadImage("/assests/w14.jpg");
+  tarotCard[64] = loadImage("./assests/w01.jpg");
+  tarotCard[65] = loadImage("./assests/w02.jpg");
+  tarotCard[66] = loadImage(".w03.jpg");
+  tarotCard[67] = loadImage("./assests/w04.jpg");
+  tarotCard[68] = loadImage("./assests/w05.jpg");
+  tarotCard[69] = loadImage("./assests/w06.jpg");
+  tarotCard[70] = loadImage("./assests/w07.jpg");
+  tarotCard[71] = loadImage("./assests/w08.jpg");
+  tarotCard[72] = loadImage("./w09.jpg");
+  tarotCard[73] = loadImage("./assests/w10.jpg");
+  tarotCard[74] = loadImage("./assests/w11.jpg");
+  tarotCard[75] = loadImage("./assests/w12.jpg");
+  tarotCard[76] = loadImage("./assests/w13.jpg");
+  tarotCard[77] = loadImage("./assests/w14.jpg");
 
   font = loadFont("FleurDeLeah-Regular.ttf");
-  cardBack = loadImage("/assests2/cardback.png")
-  movingCard = loadImage("/assests2/movingCard.png")
-  dot = loadImage("/assests2/dot.png")
+  cardBack = loadImage("./assests2/cardback.png")
+  movingCard = loadImage("./assests2/movingCard.png")
+  dot = loadImage("./assests2/dot.png")
 }
 
 function setup() {
